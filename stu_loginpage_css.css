@@ -1,0 +1,74 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+.main{
+  max-width: 1200px;
+  margin:auto;
+  margin-top:60px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image:linear-gradient(rgba(54,84,99,0.29),rgba(54,84,99,0.5)),url("a4.png");
+  text-align: center;
+}
+.login-box
+{
+  width: 280px;
+  position: absolute;
+  top:55%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.login-box h1{
+  font-size: 40px;
+  border-bottom: 6px solid #4caf50;
+  margin-bottom: 40px;
+  padding: 15px ;
+}
+.textbox{
+  width: 100%;
+  font-size: 20px;
+ padding: 8px 0;
+margin: 8px 0;
+  border-bottom: 2px solid #4caf50;
+}
+.textbox input
+{
+  border:none;
+  outline:none;
+   background: none;
+  color:blueviolet;
+  font-size: 20px;
+}
+.im{
+  vertical-align: middle;
+  width: 140px;
+  height:auto;
+}
+
+.col{
+  width: 100%;
+  background: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border:2px solid #4caf50 ;
+  cursor: pointer;
+  margin-bottom: 12px 0;
+}
+
+b
+{
+  font-size:40px;
+  color:darkkhaki;
+}
+
+
+span{
+  font-size:30px;
+  color:blueviolet;
+}
+
